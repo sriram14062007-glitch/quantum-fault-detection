@@ -21,3 +21,6 @@ Hybrid Quantum-Classical ML model for fault detection in power systems.
 
 ## 📊 Confusion Matrix
 ![Confusion Matrix](results/confusion_matrix.png) 
+
+## 🧠 Architecture Diagram
+![Architecture](results/architecture.png)
