@@ -1,21 +1,20 @@
-# ⚡ Quantum Fault Detection
+# 🚀 Quantum-Inspired Fault Detection
 
-## Overview
-Hybrid quantum-classical neural network for power system fault detection.
+## 📌 Overview
+Hybrid Quantum-Classical ML model for fault detection in power systems.
 
-## Features
-- PennyLane quantum circuits
-- PyTorch hybrid model
-- Real-world dataset
-- ~98% accuracy
+## ⚙️ Tech Stack
+- Python
+- PyTorch
+- PennyLane
+- Scikit-learn
 
-## Structure
-- notebooks/ → experiments
-- src/ → core code
-- results/ → outputs
+## 🧠 Model Architecture
+- Classical NN + Quantum Layer
+- Angle embedding + entanglement
 
-## Run
-pip install -r requirements.txt
+## 📊 Results
+- Accuracy: 98.5%
 
 ## 📉 Loss Curve
 ![Loss Curve](results/loss_curve.png)
