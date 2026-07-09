@@ -16,7 +16,7 @@ If we miss early signs of trouble in the power grid, small issues can snowball i
 - **Quantum layer:** Variational quantum circuit (PennyLane) using angle embedding to encode classical features into qubit rotations, followed by entangling gates
 - **Output layer:** Classical dense layer for final binary classification (fault / no fault)
 
- *(results/architecture.png)`)*
+ ![Architecture](results/architecture.png)
 
 ## Results
 
@@ -35,7 +35,9 @@ If we miss early signs of trouble in the power grid, small issues can snowball i
 
 The tuned quantum hybrid model now performs close to the classical Random Forest baseline, showing that with correct architecture and sufficient circuit depth, the hybrid approach is competitive on this task — even though the classical model retains a small edge.
 
-**Confusion Matrix & Loss Curve:** see `results/`
+**Confusion Matrix & Loss Curve:** 
+![![Confusion Matrix](results/Confusion_Matrix.png)
+![Loss Curve](results/Loss_Curve.png)
 
 ## Tech Stack
 
