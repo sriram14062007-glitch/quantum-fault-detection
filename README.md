@@ -1,10 +1,10 @@
 # Quantum-Classical Hybrid Neural Network for Power Grid Fault Detection
 
-A hybrid quantum-classical machine learning model for binary classification of electrical grid stability faults, built with **PennyLane** and **PyTorch**.
+This project uses a mix of quantum and classical machine learning to decide whether the power grid is stable or faulty, built using **PennyLane** and **PyTorch**.
 
 ## Problem Statement
 
-Power grid instability can cascade into large-scale outages if not detected early. This project investigates whether a **quantum-enhanced neural network** — combining classical dense layers with a variational quantum circuit — is a viable approach for grid fault/stability classification, and benchmarks it directly against a classical baseline to evaluate whether the added quantum complexity is justified.
+If we miss early signs of trouble in the power grid, small issues can snowball into massive blackouts. In this project, we ask whether a **quantum‑enhanced neural network** which blends regular dense layers with a variational quantum circuit—can reliably tell apart healthy grid states from faulty ones. We then pit this hybrid model against a purely classical baseline to see whether the extra quantum machinery actually earns its place by improving performance.
 
 ## Dataset
 
@@ -16,7 +16,7 @@ Power grid instability can cascade into large-scale outages if not detected earl
 - **Quantum layer:** Variational quantum circuit (PennyLane) using angle embedding to encode classical features into qubit rotations, followed by entangling gates
 - **Output layer:** Classical dense layer for final binary classification (fault / no fault)
 
-> *(Add or update an architecture diagram here — you already have one in `results/`. Reference it with `![Architecture](results/architecture_diagram.png)`)*
+ *(results/architecture.png)`)*
 
 ## Results
 
