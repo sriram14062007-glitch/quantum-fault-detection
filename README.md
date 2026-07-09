@@ -17,10 +17,10 @@ Hybrid Quantum-Classical ML model for fault detection in power systems.
 - Accuracy: 98.5%
 
 ## 📉 Loss Curve
-![Loss Curve](results/loss_curve.png)
+![Loss Curve](results/Loss_Curve.png)
 
 ## 📊 Confusion Matrix
-![Confusion Matrix](results/confusion_matrix.png) 
+![Confusion Matrix](results/Confusion_Matrix.png) 
 
 ## 🧠 Architecture Diagram
 ![Architecture](results/architecture.png)
