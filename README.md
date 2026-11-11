@@ -39,7 +39,20 @@ The target variable is `stabf`, which represents binary grid stability:
 - `stable`
 - `unstable`
 
+### Dataset Attribution
+
+This project uses the Electrical Grid Stability Simulated Data dataset provided by the UCI Machine Learning Repository.
+
+- **Original creator:** Vadim Arzamasov (2018)
+- **Source:** https://archive.ics.uci.edu/dataset/471/electrical+grid+stability+simulated+data
+- **DOI:** https://doi.org/10.24432/C5PG66
+- **License:** Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+The dataset is redistributed under its original license. All rights remain with the original creator.
+
 The derived `stab` column is excluded from the input features to prevent target leakage.
+
+### Data preprocessing
 
 The active dataset used by the project is:
 
