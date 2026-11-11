@@ -1,0 +1,22 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# IDE and operating system
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Large Random Forest model checkpoints
+results/reproducibility/*/random_forest/model.joblib
+results/random_forest/model.joblib
+
+# Local backup
+results_seed42_original/
